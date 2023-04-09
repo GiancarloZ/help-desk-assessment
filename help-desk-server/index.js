@@ -14,5 +14,5 @@ app.use(express.json());
 require("./routes/TicketRoutes")(app);
 
 app.listen(PORT, () =>
-  console.log(`Server running on port http://104.248.39.223:${PORT}`)
+  console.log(`Server running on port http://157.230.94.40:${PORT}`)
 );

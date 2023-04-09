@@ -55,7 +55,7 @@ function App(): JSX.Element {
     const valid = validateForm(state);
 
     if (valid) {
-      const res = await fetch("http://localhost:8080/submit-ticket", {
+      const res = await fetch("http://104.248.39.223:8080/submit-ticket", {
         method: "POST",
         body: JSON.stringify(state),
         headers: {

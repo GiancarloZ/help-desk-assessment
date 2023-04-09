@@ -84,7 +84,7 @@ export function EditTicketModal({
   const handleSubmit = async () => {
     setLoading(true);
 
-    await fetch(`http://localhost:8080/tickets/${data.id}`, {
+    await fetch(`http://104.248.39.223:8080/tickets/${data.id}`, {
       method: "PUT",
       body: JSON.stringify(formData),
       headers: {

@@ -15,7 +15,7 @@ export default function Staff() {
   const [selectedData, setSelectedData] = useState<Ticket | undefined>();
 
   const fetchData = async () => {
-    await fetch("http://localhost:8080/tickets", {
+    await fetch("http://104.248.39.223:8080/tickets", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

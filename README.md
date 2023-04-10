@@ -25,14 +25,14 @@ clone repo
 ## To start the node server
 
 ```
-cd help-desk-assessment-server
+cd help-desk-server
 run npm install && npm run dev
 ```
 
 ## To spin up frontend environment
 
 ```
-cd help-desk-assessment-client
+cd help-desk-client
 run npm install && npm run dev
 ```
 
